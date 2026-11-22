@@ -1,0 +1,28 @@
+ca:
+total 16
+drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 root-ca
+-rw-r--r-- 1 hp 197121 1482 Nov 21 17:57 root-ca.cer
+-rw-r--r-- 1 hp 197121 7352 Nov 21 17:57 root-ca.crt
+-rw-r--r-- 1 hp 197121 1854 Nov 21 17:57 root-ca.csr
+
+ca/root-ca:
+total 12
+-rw-r--r-- 1 hp 197121 7352 Nov 21 17:57 01.pem
+drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 db
+drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 private
+
+ca/root-ca/db:
+total 6
+-rw-r--r-- 1 hp 197121  4 Nov 21 17:57 root-ca.crl.srl
+-rw-r--r-- 1 hp 197121  3 Nov 21 17:57 root-ca.crl.srl.old
+-rw-r--r-- 1 hp 197121  4 Nov 21 17:57 root-ca.crt.srl
+-rw-r--r-- 1 hp 197121  3 Nov 21 17:57 root-ca.crt.srl.old
+-rw-r--r-- 1 hp 197121 96 Nov 21 17:57 root-ca.db
+-rw-r--r-- 1 hp 197121 21 Nov 21 17:57 root-ca.db.attr
+-rw-r--r-- 1 hp 197121  0 Nov 21 17:57 root-ca.db.attr.old
+-rw-r--r-- 1 hp 197121  0 Nov 21 17:57 root-ca.db.old
+
+crl:
+total 8
+-rw-r--r-- 1 hp 197121 1090 Nov 21 17:57 root-ca.crl
+-rw-r--r-- 1 hp 197121  754 Nov 21 17:57 root-ca.der.crl

@@ -1,0 +1,10 @@
+# Never commit private keys or keystores
+ca/**/private/
+*.key
+*.p12
+*.pfx
+*.jks
+
+# OpenSSL CA database backups
+*.old
+
