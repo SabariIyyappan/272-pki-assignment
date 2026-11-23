@@ -1,6 +1,6 @@
-subject=DC=org, DC=simple, O=Simple Inc, OU=Simple Root CA, CN=Simple Root CA
-issuer=DC=org, DC=simple, O=Simple Inc, OU=Simple Root CA, CN=Simple Root CA
+subject= /DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+issuer= /DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
 serial=01
-notBefore=Nov 22 01:57:47 2026 GMT
-notAfter=Nov 21 01:57:47 2036 GMT
-sha256 Fingerprint=30:D3:43:D5:EE:15:E8:3B:34:FD:86:30:40:35:ED:EE:F8:D8:EC:60:39:3B:B4:5F:6C:56:14:C0:E1:37:1F:65
+notBefore=Nov 23 04:50:42 2026 GMT
+notAfter=Nov 22 04:50:42 2036 GMT
+SHA256 Fingerprint=90:86:46:99:78:1E:A1:B9:C3:28:44:DC:1E:52:62:6F:18:E8:72:72:0E:55:BF:C1:A6:8B:B3:E6:18:59:54:03
