@@ -1,0 +1,67 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:DC=org, DC=simple, O=Simple Inc, OU=Simple Web Server, CN=localhost
+   i:DC=org, DC=simple, O=Simple Inc, OU=Simple Signing CA, CN=Simple Signing CA
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 23 07:07:37 2026 GMT; NotAfter: Nov 22 07:07:37 2028 GMT
+ 1 s:DC=org, DC=simple, O=Simple Inc, OU=Simple Signing CA, CN=Simple Signing CA
+   i:DC=org, DC=simple, O=Simple Inc, OU=Simple Root CA, CN=Simple Root CA
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 23 04:50:49 2026 GMT; NotAfter: Nov 22 04:50:49 2036 GMT
+ 2 s:DC=org, DC=simple, O=Simple Inc, OU=Simple Root CA, CN=Simple Root CA
+   i:DC=org, DC=simple, O=Simple Inc, OU=Simple Root CA, CN=Simple Root CA
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 23 04:50:42 2026 GMT; NotAfter: Nov 22 04:50:42 2036 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFATCCAumgAwIBAgIBAjANBgkqhkiG9w0BAQsFADB6MRMwEQYKCZImiZPyLGQB
+GRYDb3JnMRYwFAYKCZImiZPyLGQBGRYGc2ltcGxlMRMwEQYDVQQKDApTaW1wbGUg
+SW5jMRowGAYDVQQLDBFTaW1wbGUgU2lnbmluZyBDQTEaMBgGA1UEAwwRU2ltcGxl
+IFNpZ25pbmcgQ0EwHhcNMjYxMTIzMDcwNzM3WhcNMjgxMTIyMDcwNzM3WjByMRMw
+EQYKCZImiZPyLGQBGRYDb3JnMRYwFAYKCZImiZPyLGQBGRYGc2ltcGxlMRMwEQYD
+VQQKDApTaW1wbGUgSW5jMRowGAYDVQQLDBFTaW1wbGUgV2ViIFNlcnZlcjESMBAG
+A1UEAwwJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+vc4iDjxodLVx8mz4zRVT7gi3pDyL75daUqKEQzhFadIOSQKnHFlBuTsO9jExnA5H
+8LqTW6Khh9bQ/vx7+GBdp+S+wva4uRRl+funCziT8gnE2tL0j64/JjK/YDYamvom
+RU+T4ufYaHZzq4BPnnFQ8BsbeNUnOnPhpUX25cQr1LRyka9DL4ti0aHPFh8bnLjh
+2SaBnXc1MNvQT4ohp+UBcw8apltRYdhIakHgtZ+hOju9/W9+09q9K1rSuj1XBIsR
+UEX3QgTqZ+xfOKZjCwYvfyXKGvEHNTjTgLJJrlmC4EfZby5SbIdfJUkElJtsHOXp
+RRYUMQLBZQtDiOutQcAHAQIDAQABo4GZMIGWMA4GA1UdDwEB/wQEAwIFoDAJBgNV
+HRMEAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQU
+/vMFC0S09spQ2rmFlyjt2arCdDYwHwYDVR0jBBgwFoAUzOF26lV31XGmJNJRe4G0
+SrSHqVYwGgYDVR0RBBMwEYIJbG9jYWxob3N0hwR/AAABMA0GCSqGSIb3DQEBCwUA
+A4ICAQCFJYIPihBEjiE+/ACkDPtfMS/KMwnWNHxayvBKMJ4x8mC68uLtVKDVLgMb
+gF+HJTx2xykJwThh2zvijzdeTqJMGQnB5IFVYCSG8qDgTfbxQi2OAL9beCkm0W1p
+rUGNtdsHA2tZKndSdOkaNJZjVCDXmuyE1LVfHZc3ZBqHJjG6I09uASnHATZmQi+m
+2ebVDWD9k6lngeHE2SykGCv/IX54fsK5EmXi7YeuHV76WPUOiYyVmUXg8EnCGh0z
+lVfIejADfaD5r/e1EnJ7K6iLQFNvDE39aMxt7odWu4B8f58KzLzW5V2GzkeQ8Bes
+twdW04pxfQYTzwEfqDD9cuIIA+WCsha1cbCmP69H1kU6NtkNSkcuCwkCOflk/dgq
+rQEibaNF0rJ/tk6CKi399lJDKZw6I0OjS0PC2DyqvvMu3JiRUAHgqckHoQxtpHrt
+mNNIg58TXo1ATW+kn5SaQ4WkAAEUlKe7eRhdFoGcJn35VW3mmK+knNPsiZH8X9gj
+KvijhoTPrWcVVKlGokJQOwFNULdv7Dzr+3+gc3g4w7rm3c415E/kmyaB32255i2I
+RqM1c4iTJrp9bBgO3/INYdBAO5NiGTdUcvYeHnOxO62Al7d4b4JGY5UF0KUeDiHv
+fjf5s937IM/HE72wJJ8z3TMOs771eGaRUxBc4FObOG+s5ZQVgg==
+-----END CERTIFICATE-----
+subject=DC=org, DC=simple, O=Simple Inc, OU=Simple Web Server, CN=localhost
+issuer=DC=org, DC=simple, O=Simple Inc, OU=Simple Signing CA, CN=Simple Signing CA
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4800 bytes and written 1617 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
