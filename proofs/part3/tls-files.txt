@@ -1,0 +1,7 @@
+total 104
+-rw-r--r--@ 1 samhithabanda  staff  20594 Nov 22 21:04 localhost-fullchain.pem
+-rw-r--r--@ 1 samhithabanda  staff   1285 Nov 22 21:04 localhost.cer
+-rw-r--r--@ 1 samhithabanda  staff   6076 Nov 22 21:04 localhost.crt
+-rw-r--r--@ 1 samhithabanda  staff   1184 Nov 22 21:04 localhost.csr
+-rw-------@ 1 samhithabanda  staff   1858 Nov 22 21:04 localhost.key
+-rw-r--r--@ 1 samhithabanda  staff   6016 Nov 22 21:04 localhost.p12

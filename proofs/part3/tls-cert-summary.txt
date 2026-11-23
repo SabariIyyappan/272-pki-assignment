@@ -1,0 +1,6 @@
+subject= /DC=org/DC=simple/O=Simple Inc/OU=Simple Web Server/CN=localhost
+issuer= /DC=org/DC=simple/O=Simple Inc/OU=Simple Signing CA/CN=Simple Signing CA
+serial=01
+notBefore=Nov 23 05:04:26 2026 GMT
+notAfter=Nov 22 05:04:26 2028 GMT
+SHA256 Fingerprint=E9:06:AE:61:44:86:D9:76:A5:82:CD:AD:38:7C:D3:F1:CF:EA:20:65:6E:50:E4:4C:E7:58:34:45:86:CF:52:48

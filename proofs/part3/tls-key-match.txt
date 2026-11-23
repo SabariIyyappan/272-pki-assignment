@@ -1,0 +1,2 @@
+key modulus  (sha256): f942c3f621b9836365a7f3afdae8ea8fb998c92833ab2d11fbc6cb1d5072ad53
+cert modulus (sha256): f942c3f621b9836365a7f3afdae8ea8fb998c92833ab2d11fbc6cb1d5072ad53

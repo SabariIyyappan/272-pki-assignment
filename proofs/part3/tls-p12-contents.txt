@@ -1,0 +1,10 @@
+MAC Iteration 2048
+MAC verified OK
+PKCS7 Encrypted data: pbeWithSHA1And40BitRC2-CBC, Iteration 2048
+PKCS7 Data
+subject=/DC=org/DC=simple/O=Simple Inc/OU=Simple Web Server/CN=localhost
+issuer=/DC=org/DC=simple/O=Simple Inc/OU=Simple Signing CA/CN=Simple Signing CA
+subject=/DC=org/DC=simple/O=Simple Inc/OU=Simple Signing CA/CN=Simple Signing CA
+issuer=/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+subject=/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+issuer=/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA

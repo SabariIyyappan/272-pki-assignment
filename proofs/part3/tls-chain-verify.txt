@@ -1,0 +1,8 @@
+$ openssl verify -CAfile ca/root-ca.crt -untrusted ca/signing-ca.crt certs/localhost.crt
+certs/localhost.crt: OK
+
+$ openssl verify -CAfile ca/ca-chain.crt certs/localhost.crt
+certs/localhost.crt: OK
+
+$ openssl verify -purpose sslserver -CAfile ca/ca-chain.crt certs/localhost.crt
+certs/localhost.crt: OK

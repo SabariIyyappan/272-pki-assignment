@@ -1,28 +1,30 @@
 ca:
-total 16
-drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 root-ca
--rw-r--r-- 1 hp 197121 1482 Nov 21 17:57 root-ca.cer
--rw-r--r-- 1 hp 197121 7352 Nov 21 17:57 root-ca.crt
--rw-r--r-- 1 hp 197121 1854 Nov 21 17:57 root-ca.csr
+total 40
+drwxr-xr-x  5 arthi  staff   160 Nov 22 20:50 root-ca
+-rw-r--r--  1 arthi  staff  1482 Nov 22 20:50 root-ca.cer
+-rw-r--r--  1 arthi  staff  7244 Nov 22 20:50 root-ca.crt
+-rw-r--r--  1 arthi  staff  1825 Nov 22 20:50 root-ca.csr
+drwxr-xr-x  4 arthi  staff   128 Nov 22 20:32 signing-ca
+-rw-r--r--  1 arthi  staff  1838 Nov 22 20:35 signing-ca.csr
 
 ca/root-ca:
-total 12
--rw-r--r-- 1 hp 197121 7352 Nov 21 17:57 01.pem
-drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 db
-drwxr-xr-x 1 hp 197121    0 Nov 21 17:57 private
+total 16
+-rw-r--r--   1 arthi  staff  7244 Nov 22 20:50 01.pem
+drwxr-xr-x  10 arthi  staff   320 Nov 22 20:50 db
+drwx------   3 arthi  staff    96 Nov 22 20:50 private
 
 ca/root-ca/db:
-total 6
--rw-r--r-- 1 hp 197121  4 Nov 21 17:57 root-ca.crl.srl
--rw-r--r-- 1 hp 197121  3 Nov 21 17:57 root-ca.crl.srl.old
--rw-r--r-- 1 hp 197121  4 Nov 21 17:57 root-ca.crt.srl
--rw-r--r-- 1 hp 197121  3 Nov 21 17:57 root-ca.crt.srl.old
--rw-r--r-- 1 hp 197121 96 Nov 21 17:57 root-ca.db
--rw-r--r-- 1 hp 197121 21 Nov 21 17:57 root-ca.db.attr
--rw-r--r-- 1 hp 197121  0 Nov 21 17:57 root-ca.db.attr.old
--rw-r--r-- 1 hp 197121  0 Nov 21 17:57 root-ca.db.old
+total 48
+-rw-r--r--  1 arthi  staff   3 Nov 22 20:50 root-ca.crl.srl
+-rw-r--r--  1 arthi  staff   3 Nov 22 20:50 root-ca.crl.srl.old
+-rw-r--r--  1 arthi  staff   3 Nov 22 20:50 root-ca.crt.srl
+-rw-r--r--  1 arthi  staff   3 Nov 22 20:50 root-ca.crt.srl.old
+-rw-r--r--  1 arthi  staff  95 Nov 22 20:50 root-ca.db
+-rw-r--r--  1 arthi  staff  20 Nov 22 20:50 root-ca.db.attr
+-rw-r--r--  1 arthi  staff   0 Nov 22 20:50 root-ca.db.attr.old
+-rw-r--r--  1 arthi  staff   0 Nov 22 20:50 root-ca.db.old
 
 crl:
-total 8
--rw-r--r-- 1 hp 197121 1090 Nov 21 17:57 root-ca.crl
--rw-r--r-- 1 hp 197121  754 Nov 21 17:57 root-ca.der.crl
+total 16
+-rw-r--r--  1 arthi  staff  1072 Nov 22 20:50 root-ca.crl
+-rw-r--r--  1 arthi  staff   754 Nov 22 20:50 root-ca.der.crl
