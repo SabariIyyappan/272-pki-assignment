@@ -8,3 +8,4 @@ ca/**/private/
 # OpenSSL CA database backups
 *.old
 
+ca/signing-ca/private/
