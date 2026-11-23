@@ -1,0 +1,19 @@
+$ openssl s_client -connect localhost:8444 -servername localhost -CAfile ca/root-ca.crt
+depth=2 DC = org, DC = simple, O = Simple Inc, OU = Simple Root CA, CN = Simple Root CA
+verify return:1
+depth=1 DC = org, DC = simple, O = Simple Inc, OU = Simple Signing CA, CN = Simple Signing CA
+verify return:1
+depth=0 DC = org, DC = simple, O = Simple Inc, OU = Simple Web Server, CN = localhost
+verify return:1
+Certificate chain
+ 0 s:/DC=org/DC=simple/O=Simple Inc/OU=Simple Web Server/CN=localhost
+   i:/DC=org/DC=simple/O=Simple Inc/OU=Simple Signing CA/CN=Simple Signing CA
+ 1 s:/DC=org/DC=simple/O=Simple Inc/OU=Simple Signing CA/CN=Simple Signing CA
+   i:/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+ 2 s:/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+   i:/DC=org/DC=simple/O=Simple Inc/OU=Simple Root CA/CN=Simple Root CA
+    Protocol  : TLSv1.3
+    Cipher    : AEAD-AES256-GCM-SHA384
+
+$ curl --cacert ca/root-ca.crt https://localhost:8444/
+HTTP 200, ssl_verify_result=0 (0 = OK)

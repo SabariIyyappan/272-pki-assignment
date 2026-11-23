@@ -1,0 +1,9 @@
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+--
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, IP Address:127.0.0.1

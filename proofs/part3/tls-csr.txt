@@ -1,0 +1,54 @@
+verify OK
+Certificate Request:
+    Data:
+        Version: 0 (0x0)
+        Subject: DC=org, DC=simple, O=Simple Inc, OU=Simple Web Server, CN=localhost
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:ac:7d:fd:99:d2:b0:26:b6:15:09:e2:9d:60:b6:
+                    50:b4:e4:33:52:ec:74:38:37:8e:9f:2e:b4:11:08:
+                    91:a3:a5:30:b1:0f:56:e2:24:53:9e:2b:4b:91:d4:
+                    ac:4e:fb:1c:00:fa:ee:a4:71:54:e5:68:7a:9d:11:
+                    7c:a8:58:58:30:6c:84:02:6a:b5:55:5c:a4:63:41:
+                    df:fb:1c:81:25:90:30:b8:0a:2d:d7:58:88:74:39:
+                    a0:30:51:59:85:d3:02:5a:6c:d0:ff:ad:8a:e5:8f:
+                    95:12:40:9a:08:bf:cd:29:8c:68:2c:9f:e2:da:ab:
+                    24:f8:f3:59:cc:0c:44:a5:b3:36:b8:e3:8a:dd:4f:
+                    59:86:51:e1:4d:89:49:d3:e5:1f:cb:53:5d:7d:f5:
+                    ad:2b:1d:31:66:f9:af:4b:c7:84:e0:a3:e7:58:b2:
+                    2b:6f:94:11:c7:66:a5:b2:2b:f2:47:61:67:d3:2f:
+                    8c:19:e4:99:89:c3:db:dc:41:b5:3d:b5:41:95:8c:
+                    d5:08:6e:48:22:e3:dc:57:e9:8a:05:cc:8b:78:9f:
+                    93:ee:c4:dd:cc:17:f6:68:5f:c3:35:4f:8e:ac:ed:
+                    0b:90:d0:3c:ae:95:59:00:14:34:c2:38:05:fa:61:
+                    e1:fe:73:13:65:85:18:d9:e1:9d:ad:85:25:c5:75:
+                    2a:75
+                Exponent: 65537 (0x10001)
+        Attributes:
+        Requested Extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                80:CD:74:28:D9:43:9E:16:60:CF:21:0D:BB:AF:9E:53:83:AD:EE:62
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, IP Address:127.0.0.1
+    Signature Algorithm: sha256WithRSAEncryption
+         1f:a9:59:89:50:67:ba:c6:0b:b2:a6:56:20:c1:01:97:71:15:
+         cb:f0:0a:72:1f:59:c3:63:e4:14:ed:16:6f:95:ec:d9:b0:07:
+         a9:86:fe:fa:86:25:22:4f:2c:6f:c9:c0:88:b1:fe:1a:c1:a8:
+         58:0b:8b:77:9d:e6:a0:51:d0:0b:02:23:1b:ac:9b:75:d1:d6:
+         94:1f:b0:49:f6:4f:fc:fe:a1:70:3b:6c:8a:d8:cb:73:fa:5a:
+         48:d2:32:98:36:7c:b8:0d:65:58:af:19:9d:5d:63:ec:23:41:
+         df:41:bc:a8:9a:e4:5b:5f:7e:ce:ea:b5:f7:f4:b4:06:48:42:
+         4c:2e:fd:4f:c7:a9:a3:40:2c:2c:cf:b4:89:33:79:b5:7c:7d:
+         f1:b5:02:17:66:35:ac:e9:86:88:99:eb:30:e8:8b:99:ac:34:
+         cf:dc:6d:fc:d2:c6:d8:e1:f7:f6:53:4e:12:2d:3f:c6:71:db:
+         42:a7:3c:98:fd:d3:db:f2:eb:0c:49:4d:41:cc:de:f2:f2:94:
+         b3:37:23:56:29:34:f1:7a:32:8f:c0:18:4c:c4:02:5d:18:18:
+         cf:55:60:ae:c4:66:12:c3:75:e9:e2:d8:7f:df:fc:37:60:5e:
+         46:8f:3a:04:b0:16:32:b1:09:a2:3c:7a:b5:fa:84:b3:02:cd:
+         d7:e3:82:1e
